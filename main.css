@@ -1,0 +1,21 @@
+div.row {
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+  margin-left: 1rem;
+  font-size: 2rem;
+  padding: 0.2rem;
+}
+
+.input-group.input-group-lg {
+  margin: 1rem;
+}
+
+.checker:checked {
+  /* strikethrough done todo */
+  text-decoration: "line-through";
+}
