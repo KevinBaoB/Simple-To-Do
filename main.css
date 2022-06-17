@@ -35,10 +35,14 @@ div.row {
   font-family: "Khiara Script";
 }
 
-.input-group-lg>.btn, .input-group-lg>.form-control, .input-group-lg>.form-select, .input-group-lg>.input-group-text {
-    padding: 0.5rem 1rem;
-    font-size: 2rem;
-    border-radius: 0.5rem;
+.input-group-lg > .btn,
+.input-group-lg > .form-control,
+.input-group-lg > .form-select,
+.input-group-lg > .input-group-text {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
 
 .input-group.input-group-lg {
   margin: 1rem;
