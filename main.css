@@ -1,21 +1,57 @@
+@font-face {
+  font-family: "Khiara Script";
+  src: url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.eot");
+  src: url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.svg#Khiara Script")
+      format("svg");
+}
+
+body {
+  background: url("https://png.pngtree.com/background/20210710/original/pngtree-auspicious-chinese-new-year-festive-background-picture-image_972238.jpg")
+    no-repeat center center fixed;
+  font-family: "Khiara Script";
+}
+
 div.row {
   display: flex;
   justify-content: center;
   font-size: 6rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Khiara Script";
+  color: goldenrod;
 }
 
-li {
+.checker {
   margin-left: 1rem;
-  font-size: 2rem;
+  font-size: 4rem;
   padding: 0.2rem;
+  color: goldenrod;
+  font-family: "Khiara Script";
 }
+
+.input-group-lg>.btn, .input-group-lg>.form-control, .input-group-lg>.form-select, .input-group-lg>.input-group-text {
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
 
 .input-group.input-group-lg {
   margin: 1rem;
+  color: goldenrod;
+  font-family: "Khiara Script";
+  font-size: 2rem;
 }
 
 .checker:checked {
   /* strikethrough done todo */
   text-decoration: "line-through";
+}
+
+.checker:hover {
+  cursor: pointer;
 }
