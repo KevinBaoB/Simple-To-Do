@@ -1,38 +1,38 @@
 @font-face {
-  font-family: "Khiara Script";
-  src: url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.eot");
-  src: url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.eot?#iefix")
+  font-family: "American Typewriter";
+  src: url("//db.onlinewebfonts.com/t/bf35ddaa105b41dd66cb2eb93424c588.eot");
+  src: url("//db.onlinewebfonts.com/t/bf35ddaa105b41dd66cb2eb93424c588.eot?#iefix")
       format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.woff2")
+    url("//db.onlinewebfonts.com/t/bf35ddaa105b41dd66cb2eb93424c588.woff2")
       format("woff2"),
-    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.woff")
+    url("//db.onlinewebfonts.com/t/bf35ddaa105b41dd66cb2eb93424c588.woff")
       format("woff"),
-    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.ttf")
+    url("//db.onlinewebfonts.com/t/bf35ddaa105b41dd66cb2eb93424c588.ttf")
       format("truetype"),
-    url("//db.onlinewebfonts.com/t/53704f98eae76aa486334db54e2a53c1.svg#Khiara Script")
+    url("//db.onlinewebfonts.com/t/bf35ddaa105b41dd66cb2eb93424c588.svg#American Typewriter")
       format("svg");
 }
 
 body {
-  background: url("https://png.pngtree.com/background/20210710/original/pngtree-auspicious-chinese-new-year-festive-background-picture-image_972238.jpg")
+  background: url("https://img.freepik.com/free-vector/podium-round-stage-podium-paper-art-chinese-new-year-chinese-festivals-mid-autumn-festival-red-paper-cut-flower-asian-elements-with-craft-style-background_38689-1307.jpg?w=2000")
     no-repeat center center fixed;
-  font-family: "Khiara Script";
+  font-family: "American Typewriter";
 }
 
 div.row {
   display: flex;
   justify-content: center;
   font-size: 6rem;
-  font-family: "Khiara Script";
+  font-family: "American Typewriter";
   color: goldenrod;
 }
 
 .checker {
-  margin-left: 1rem;
   font-size: 4rem;
+  margin-left: 15rem;
   padding: 0.2rem;
   color: goldenrod;
-  font-family: "Khiara Script";
+  font-family: "American Typewriter";
 }
 
 .input-group-lg > .btn,
@@ -47,7 +47,7 @@ div.row {
 .input-group.input-group-lg {
   margin: 1rem;
   color: goldenrod;
-  font-family: "Khiara Script";
+  font-family: "American Typewriter";
   font-size: 2rem;
 }
 
